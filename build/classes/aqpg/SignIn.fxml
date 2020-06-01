@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #013243;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.SignInController">
+   <children>
+      <TextField fx:id="txtname" layoutX="497.0" layoutY="218.0" onAction="#he" prefHeight="46.0" prefWidth="406.0" promptText="UserName" style="-fx-background-color: #dadfe1;" AnchorPane.leftAnchor="497.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <PasswordField fx:id="txtpass" layoutX="497.0" layoutY="294.0" onAction="#he" prefHeight="46.0" prefWidth="406.0" promptText="Password" style="-fx-background-color: #dadfe1;">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="cancelBtn" layoutX="497.0" layoutY="404.0" mnemonicParsing="false" onAction="#he" prefHeight="46.0" prefWidth="159.0" style="-fx-background-color: #d91e18;" text="CANCEL" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="signinBtn" layoutX="739.0" layoutY="404.0" mnemonicParsing="false" onAction="#he" prefHeight="46.0" prefWidth="159.0" style="-fx-background-color: #00b5cc;" text="SIGN IN" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="joinBtn" layoutX="750.0" layoutY="507.0" mnemonicParsing="false" onAction="#he" prefHeight="37.0" prefWidth="105.0" style="-fx-background-color: #013243;" text="Join Now" textFill="#00b5cc">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="689.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="538.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create a new account?">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Text>
+      <Pane layoutX="449.0" layoutY="45.0" prefHeight="80.0" prefWidth="1500.0" style="-fx-background-color: #d35400; -fx-background-radius: 3px;" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="588.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" textAlignment="CENTER" wrappingWidth="251.80859375">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="62.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

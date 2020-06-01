@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #375756;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.EditUserController">
+   <children>
+      <Pane layoutX="450.0" layoutY="38.0" prefHeight="704.0" prefWidth="570.0" style="-fx-background-color: #00a8a3; -fx-background-radius: 5PX;">
+         <children>
+            <Text fill="#375756" layoutX="75.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UPDATE  YOUR DETAILS">
+               <font>
+                  <Font name="Cambria Bold" size="38.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtContact" layoutX="49.0" layoutY="360.0" onAction="#he" prefHeight="38.0" prefWidth="471.0" promptText="Contact Number" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtEmail" layoutX="49.0" layoutY="297.0" onAction="#he" prefHeight="38.0" prefWidth="471.0" promptText="Email Id" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtSubject" layoutX="50.0" layoutY="235.0" onAction="#he" prefHeight="38.0" prefWidth="471.0" promptText="Subject" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtDesignation" layoutX="50.0" layoutY="174.0" onAction="#he" prefHeight="38.0" prefWidth="471.0" promptText="Designation" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtName" layoutX="51.0" layoutY="111.0" onAction="#he" prefHeight="39.0" prefWidth="471.0" promptText="Name" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnUpdate" layoutX="133.0" layoutY="480.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="308.0" style="-fx-background-color: #375756; -fx-border-color: white; -fx-border-radius: 3px; -fx-border-width: 2px;" text="Update" textFill="#00a8a3">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnBack" layoutX="131.0" layoutY="584.0" mnemonicParsing="false" onAction="#he" prefHeight="65.0" prefWidth="308.0" style="-fx-background-color: #375756; -fx-border-color: white; -fx-border-radius: 3px; -fx-border-width: 2px;" text="Back" textFill="#00a8a3">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

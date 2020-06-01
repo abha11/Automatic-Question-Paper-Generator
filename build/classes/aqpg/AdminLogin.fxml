@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #34495e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.AdminLoginController">
+   <children>
+      <Pane layoutX="330.0" layoutY="117.0" prefHeight="400.0" prefWidth="750.0" style="-fx-background-color: #c5eff7; -fx-background-radius: 8px;" AnchorPane.leftAnchor="330.0">
+         <children>
+            <TextField fx:id="txtName" layoutX="278.0" layoutY="88.0" onAction="#he" prefHeight="40.0" prefWidth="305.0">
+               <font>
+                  <Font size="15.0" />
+               </font></TextField>
+            <PasswordField fx:id="txtPass" layoutX="278.0" layoutY="153.0" onAction="#he" prefHeight="40.0" prefWidth="305.0">
+               <font>
+                  <Font size="15.0" />
+               </font></PasswordField>
+            <PasswordField fx:id="txtCode" layoutX="278.0" layoutY="216.0" onAction="#he" prefHeight="40.0" prefWidth="305.0">
+               <font>
+                  <Font size="15.0" />
+               </font></PasswordField>
+            <Button fx:id="cancelBtn" cancelButton="true" layoutX="278.0" layoutY="316.0" mnemonicParsing="false" onAction="#he" prefHeight="37.0" prefWidth="123.0" style="-fx-background-color: #d91e18;" text="Cancel" textFill="#c5eff7">
+               <font>
+                  <Font name="Calibri Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="loginBtn" defaultButton="true" layoutX="460.0" layoutY="316.0" mnemonicParsing="false" onAction="#he" prefHeight="37.0" prefWidth="123.0" style="-fx-background-color: #4183d7;" text="Login" textFill="#c5eff7">
+               <font>
+                  <Font name="Calibri Bold" size="22.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fill="#34495e" layoutX="87.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username: ">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#34495e" layoutX="87.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password: ">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#34495e" layoutX="87.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Security Code: ">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="415.0" layoutY="63.0" prefHeight="64.0" prefWidth="266.0" style="-fx-background-color: #c5eff7; -fx-background-radius: 8px;">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="46.0" layoutX="8.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/admin3.png" />
+               </image>
+            </ImageView>
+            <Text fill="#34495e" layoutX="51.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin login">
+               <font>
+                  <Font name="Calibri Bold" size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

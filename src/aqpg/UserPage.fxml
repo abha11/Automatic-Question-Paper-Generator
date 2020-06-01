@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #546E7A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.UserPageController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1500.0" layoutX="4.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/user.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="25.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!">
+         <font>
+            <Font name="Gabriola" size="50.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnGenerate" layoutX="1100.0" layoutY="42.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="211.0" style="-fx-background-color: white;" text="Generate Paper" textFill="#546e7a">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEdit" layoutX="1100.0" layoutY="119.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="211.0" style="-fx-background-color: white;" text="Edit my profile" textFill="#546e7a">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLogout" layoutX="1100.0" layoutY="195.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="211.0" style="-fx-background-color: white;" text="Logout" textFill="#546e7a">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Text fx:id="txtName" fill="WHITE" layoutX="186.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Gabriola" size="50.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

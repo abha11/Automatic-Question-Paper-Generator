@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #024249;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.GeneratepaperController">
+   <children>
+      <Pane layoutX="491.0" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #D7C49EFF; -fx-background-radius: 4px;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="450.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField layoutX="83.0" layoutY="78.0" prefHeight="10.0" prefWidth="420.0" promptText="Subject">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="83.0" layoutY="120.0" prefHeight="10.0" prefWidth="420.0" promptText="Total number of questions">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="83.0" layoutY="164.0" prefHeight="10.0" prefWidth="420.0" promptText="Total marks">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="83.0" layoutY="209.0" prefHeight="10.0" prefWidth="420.0" promptText="Difficulty">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="83.0" layoutY="255.0" prefHeight="10.0" prefWidth="420.0" promptText="Descrimination Degree">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="83.0" layoutY="301.0" prefHeight="10.0" prefWidth="420.0" promptText="Current year">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Pane layoutX="83.0" layoutY="379.0" prefHeight="161.0" prefWidth="420.0" style="-fx-background-color: b49c73; -fx-background-radius: 5px;">
+               <children>
+                  <TextField layoutX="14.0" layoutY="14.0" prefHeight="10.0" prefWidth="178.0" promptText="Unit 1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="14.0" layoutY="65.0" prefHeight="10.0" prefWidth="178.0" promptText="Unit 2">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="14.0" layoutY="116.0" prefHeight="10.0" prefWidth="178.0" promptText="Unit 3">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="219.0" layoutY="14.0" prefHeight="10.0" prefWidth="178.0" promptText="Unit 4">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="219.0" layoutY="73.0" prefHeight="10.0" prefWidth="178.0" promptText="Unit 5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <Pane layoutX="14.0" layoutY="-29.0" prefHeight="35.0" prefWidth="197.0" style="-fx-background-color: b49c73; -fx-background-radius: 5PX;">
+                     <children>
+                        <Text fill="#024249" layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weightage of each unit">
+                           <font>
+                              <Font name="Times New Roman Bold" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Button fx:id="btngenerate" layoutX="147.0" layoutY="606.0" mnemonicParsing="false" onAction="#he" prefHeight="20.0" prefWidth="292.0" style="-fx-background-color: #024249;" text="GENERATE PAPER" textFill="#d7c49e">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Text fill="#024249" layoutX="125.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the following constraints:">
+               <font>
+                  <Font name="Gabriola" size="35.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="cmbBox" editable="true" layoutX="83.0" layoutY="559.0" onAction="#he" opacity="0.76" prefHeight="30.0" prefWidth="420.0" promptText="Choose the Generator Algorithm" style="-fx-background-color: white;" />
+            <Button fx:id="btnBack" layoutX="147.0" layoutY="654.0" mnemonicParsing="false" onAction="#he" prefHeight="20.0" prefWidth="292.0" style="-fx-background-color: #024249;" text="BACK" textFill="#d7c49e">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Text fill="#d7c49e" layoutX="14.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome!">
+         <font>
+            <Font name="Gabriola" size="56.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" opacity="0.83" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #083f9e;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.FXMLDocumentController">
+    <children>
+      <Button fx:id="btnIn" layoutX="765.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #083f9e; -fx-border-color: white; -fx-border-width: 2px; -fx-border-radius: 50px;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="btnUp" layoutX="965.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #083f9e; -fx-border-color: white; -fx-border-width: 2px; -fx-border-radius: 50px;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnAdmin" layoutX="1165.0" mnemonicParsing="false" onAction="#he" prefHeight="48.0" prefWidth="200.0" style="-fx-background-color: #083f9e; -fx-border-color: white; -fx-border-width: 2px; -fx-border-radius: 50px;" text="Admin Login" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text fill="WHITE" layoutX="878.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Automatic Question Paper Generator" wrappingWidth="402.0">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="79.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="515.0" fitWidth="765.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/paper.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0066ff" height="139.0" layoutY="563.0" stroke="#0066ff" strokeType="INSIDE" width="765.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0066ff" height="139.0" stroke="#0066ff" strokeType="INSIDE" width="765.0" />
+    </children>
+</AnchorPane>

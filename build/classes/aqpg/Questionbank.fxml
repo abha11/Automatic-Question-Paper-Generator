@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1500.0" style="-fx-background-color: #00796b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aqpg.DatasetController">
+   <children>
+      <Button fx:id="btnBack" layoutX="172.0" layoutY="609.0" mnemonicParsing="false" onAction="#he" prefHeight="41.0" prefWidth="223.0" style="-fx-background-color: #fff59d;" text="Back" textFill="#00796b">
+         <font>
+            <Font name="Cooper Black" size="22.0" />
+         </font></Button>
+      <Button fx:id="btnImport" layoutX="972.0" layoutY="609.0" mnemonicParsing="false" onAction="#he" style="-fx-background-color: #fff59d;" text="Import Excel File" textFill="#00796b">
+         <font>
+            <Font name="Cooper Black" size="22.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table_question" layoutX="8.0" layoutY="70.0" prefHeight="500.0" prefWidth="1350.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="70.0">
+        <columns>
+          <TableColumn fx:id="col_ID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="col_question" prefWidth="463.0" text="Question" />
+            <TableColumn fx:id="col_dd" prefWidth="144.0" text="Dicrimination degree" />
+            <TableColumn fx:id="col_Time" prefWidth="98.0" text="Time" />
+            <TableColumn fx:id="col_difficulty" prefWidth="95.0" text="Difficulty" />
+            <TableColumn fx:id="col_marks" prefWidth="79.0" text="Marks" />
+            <TableColumn fx:id="col_relevancy" prefWidth="121.0" text="Relevancy unit" />
+            <TableColumn fx:id="col_frequency" minWidth="0.0" prefWidth="102.0" text="Frequency" />
+            <TableColumn fx:id="col_year" prefWidth="168.0" text="Last Appeared Year" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnLoad" layoutX="572.0" layoutY="609.0" mnemonicParsing="false" onAction="#he" prefHeight="41.0" prefWidth="223.0" style="-fx-background-color: #fff59d;" text="Load Files" textFill="#00796b">
+         <font>
+            <Font name="Cooper Black" size="22.0" />
+         </font>
+      </Button>
+      <Text fill="#fff59d" layoutX="565.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question Bank">
+         <font>
+            <Font name="Cambria Bold" size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
